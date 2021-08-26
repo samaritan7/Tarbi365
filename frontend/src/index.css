@@ -38,7 +38,9 @@ body{
       color:#ffffff;
       text-decoration: none;
   }
-
+  .header-links a + a {
+    margin-left: 1rem;
+  }
   .header-links a:hover{
       color: #ff8000;
   }
@@ -107,7 +109,10 @@ a:hover{
 }
 
 /*Sidebar*/
-
+.brand {
+  display: flex;
+  align-items: center;
+}
 .brand button {
   font-size: 3rem;
   padding: .5rem;
@@ -115,7 +120,7 @@ a:hover{
   border: none;
   color: #ffffff;
   cursor: pointer;
-
+  margin-right: 3rem;
 }
 .sidebar{
   position: fixed;
