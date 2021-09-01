@@ -1,0 +1,58 @@
+export default {
+    products: [
+        {
+        name: 'Fit Shirt',
+        category: 'Shirts',
+        image: '/images/d1.jpg',
+        price:40,
+        brand: 'Nike',
+        rating: 4.2,
+        numReviews: 7,
+    },
+    {
+        name: 'Best Pants',
+        category: 'Pants',
+        image: '/images/d1.jpg',
+        price:70,
+        brand: 'Nike',
+        rating: 4.1,
+        numReviews: 10,
+    },
+    {
+        name: 'Slim Shirt',
+        category: 'Shirts',
+        image: '/images/d1.jpg',
+        price:60,
+        brand: 'Nike',
+        rating: 4.9,
+        numReviews: 8,
+    },
+    {
+        name: 'Loose Pants',
+        category: 'Pants',
+        image: '/images/d1.jpg',
+        price:60,
+        brand: 'Reebok',
+        rating: 4.9,
+        numReviews: 8,
+    },
+    {
+        name: 'Short Pants',
+        category: 'Pants',
+        image: '/images/d1.jpg',
+        price:30,
+        brand: 'Fila',
+        rating: 4.9,
+        numReviews: 8,
+    },
+    {
+        name: 'V-neck shirt',
+        category: 'Shirts',
+        image: '/images/d1.jpg',
+        price:25,
+        brand: 'Adidas',
+        rating: 4.9,
+        numReviews: 8,
+    },
+]
+}
