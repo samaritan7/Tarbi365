@@ -1,6 +1,7 @@
 export default {
     products: [
         {
+        _id:'1',
         name: 'Fit Shirt',
         category: 'Shirts',
         image: '/images/d1.jpg',
@@ -10,6 +11,7 @@ export default {
         numReviews: 7,
     },
     {
+        _id:'2',
         name: 'Best Pants',
         category: 'Pants',
         image: '/images/d1.jpg',
@@ -19,6 +21,7 @@ export default {
         numReviews: 10,
     },
     {
+        _id:'3',
         name: 'Slim Shirt',
         category: 'Shirts',
         image: '/images/d1.jpg',
@@ -28,6 +31,7 @@ export default {
         numReviews: 8,
     },
     {
+        _id:'4',
         name: 'Loose Pants',
         category: 'Pants',
         image: '/images/d1.jpg',
@@ -37,6 +41,7 @@ export default {
         numReviews: 8,
     },
     {
+        _id:'5',
         name: 'Short Pants',
         category: 'Pants',
         image: '/images/d1.jpg',
@@ -46,6 +51,7 @@ export default {
         numReviews: 8,
     },
     {
+        _id:'6',
         name: 'V-neck shirt',
         category: 'Shirts',
         image: '/images/d1.jpg',
