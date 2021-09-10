@@ -6,13 +6,14 @@ function ProductScreen (props) {
     console.log(props.match.params.id)
     const product = data.products.find(x=> x._id === props.match.params.id);
     return <div>
-        <div class-Name="back-to-result">
-            <Link to="/">Back to result</Link>
-        </div>
         <div className="details">
+            <div class="back-to-result">
+                <Link to="/">Back to result</Link>
+            </div>
             <div className="details-image">
-                <img src={product.image} alt="product" ></img>
-                </div>
+                <div class="details-image-holder" style={{ backgroundImage: 'url('+product.image+')' }}></div>
+                <img src={product.image} alt="product"/>
+            </div>
                 <div className="details-info">
                     <ul>
                     <li>
@@ -49,7 +50,7 @@ function ProductScreen (props) {
                             </select>
                         </li>
                         <li>
-                            <button className="button">Add to Cart</button>
+                            <button className="button primary">Add to Cart</button>
                         </li>
                     </ul>
                 </div>
